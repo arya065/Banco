@@ -16,7 +16,7 @@ public class Banco {
                 cuenta1.setPercent(read);
             } catch (java.util.InputMismatchException e) {
                 System.out.println("Interes debe ser entre 0,1 a 3");
-//                in.next();
+                in.next();
                 cuenta1.setPercent(0);
             }
         }
