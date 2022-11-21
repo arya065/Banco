@@ -32,7 +32,7 @@ public class Cuenta {
         return result;
     }
 
-    public String generaNif() {
+    private String generaNif() {
         Random rand = new Random();
 
         int numRand = rand.nextInt(99999999 + 1);
