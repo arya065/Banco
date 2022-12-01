@@ -31,9 +31,9 @@ public class Person {
     }
      
     public void hacerCafe(CoffeeMachine maq1){
-        maq1.agregarCafe(500.0);
+        maq1.agregarCafe(100);
     }
     public void beberCafe(CoffeeMachine maq1){
-        maq1.servirTaza(200.5);
+        maq1.servirTaza(250);
     }
 }
